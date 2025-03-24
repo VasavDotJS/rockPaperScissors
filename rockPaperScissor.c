@@ -15,7 +15,6 @@ int gameEngine(int input)
 		return 1;	//Player Won
 	else if(randomGen==1&&input==3||randomGen==3&&input==2||randomGen==2&&input==1)
 		return -1;	//Player Lost
-
 }
 int main()
 {
